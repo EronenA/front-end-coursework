@@ -6,7 +6,7 @@
   "homepage": "https://EronenA.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -b origingit -d dist"
   },
   "author": "Aki Eronen",
   "license": "ISC",
